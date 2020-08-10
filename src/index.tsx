@@ -10,19 +10,13 @@ type Props = {
   onError?: (errorEvent: Event) => void
   placeholder: string
   src: string
-  srcSetData?: {
-    srcSet: string
-    sizes: string
-  }
+  srcSetData?: SrcSetData
 }
 
 type State = {
   image: string
   loading: boolean
-  srcSetData?: {
-    srcSet: string
-    sizes: string
-  }
+  srcSetData?: SrcSetData
 }
 
 export type ProgressiveImageProps = Props
