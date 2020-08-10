@@ -1,24 +1,23 @@
 # React Progressive Image
 
+[![npm](https://img.shields.io/npm/v/@alloc/react-progressive-image.svg)](https://www.npmjs.com/package/@alloc/react-progressive-image)
 [![Maintenance Status][maintenance-image]](#maintenance-status)
 
-[`react-progressive-image`](https://www.npmjs.com/package/react-progressive-image) React component for progressive image loading
+Fork of [`react-progressive-image`][1] with ESM bundle.
+
+[1]: https://github.com/FormidableLabs/react-progressive-image
 
 ### Install
 
 ```bash
-$ yarn add react-progressive-image
+$ yarn add @alloc/react-progressive-image
 ```
-
-The UMD build is also available on [unpkg](https://unpkg.com):
-
-```html
-<script src="https://unpkg.com/react-progressive-image@0.1.0/umd/react-progressive-image.min.js"></script>
-```
-
-If you use the UMD build you can find the library on `window.ReactProgressiveImage`.
 
 ### Examples
+
+```js
+import { ProgressiveImage } from '@alloc/react-progressive-image'
+```
 
 #### Simple
 
